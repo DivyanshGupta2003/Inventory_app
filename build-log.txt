@@ -1,0 +1,49 @@
+time="2026-06-01T19:22:08+05:30" level=warning msg="D:\\inventory-app\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image inventory-app-backend Building 
+ Image inventory-app-frontend Building
+#1 [internal] load local bake definitions
+#1 reading from stdin 990B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 336B done
+#2 DONE 0.0s
+
+#3 [auth] library/node:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [auth] library/nginx:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#5 [internal] load metadata for docker.io/library/nginx:alpine
+#5 ...
+
+#6 [internal] load metadata for docker.io/library/node:18-alpine
+#6 DONE 1.4s
+
+#5 [internal] load metadata for docker.io/library/nginx:alpine
+#5 DONE 2.5s
+
+#7 [internal] load .dockerignore
+#7 transferring context: 64B done
+#7 DONE 0.0s
+
+#8 [build 1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#8 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#8 DONE 0.0s
+
+#9 [build 2/6] WORKDIR /app
+#9 CACHED
+
+#10 [stage-1 1/2] FROM docker.io/library/nginx:alpine@sha256:8b1e78743a03dbb2c95171cc58639fef29abc8816598e27fb910ed2e621e589a
+#10 resolve docker.io/library/nginx:alpine@sha256:8b1e78743a03dbb2c95171cc58639fef29abc8816598e27fb910ed2e621e589a 0.0s done
+#10 CACHED
+
+#11 [internal] load build context
+#11 transferring context: 500B done
+#11 DONE 0.0s
+
+#12 [build 3/6] COPY package.json ./
+#12 DONE 0.0s
+
+#13 [build 4/6] RUN npm install --legacy-peer-deps
