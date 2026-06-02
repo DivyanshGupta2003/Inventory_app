@@ -7,8 +7,7 @@ A full-stack web application for managing products, customers, orders, and inven
 | Service | URL |
 |---------|-----|
 | Frontend (Vercel) | https://inventory-app-five-theta.vercel.app |
-| Backend API (Render) | https://inventory-app-k5gx.onrender.com |
-| API Documentation | https://inventory-app-k5gx.onrender.com/docs |
+| API Documentation (Render) | https://inventory-app-k5gx.onrender.com/docs |
 | Docker Hub Image | https://hub.docker.com/r/divyansh123docker/inventory-backend |
 
 ---
